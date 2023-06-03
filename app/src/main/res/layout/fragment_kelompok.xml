@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/IDKELOMPOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/idfoto"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/idfoto"
+        android:text="KELOMPOK 13"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/purple_200"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/idfoto"
+            android:layout_width="167dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foto_nopal_3x4" />
+
+        <TextView
+            android:id="@+id/idnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/idfoto"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/idfoto"
+            android:text="Naufal Ilham Fatikh"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/idnim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idnama"
+            android:layout_alignStart="@+id/idnama"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="17dp"
+            android:text="210441100096"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/idumur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idnim"
+            android:layout_alignStart="@+id/idnim"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="19 Tahun"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idumur"
+            android:layout_alignStart="@+id/idumur"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="11dp"
+            android:text="Pasuruan - Jawa Timur"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_height="230dp"
+        android:background="@color/purple_200"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/idfoto2"
+            android:layout_width="167dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foto3x4_ria" />
+
+        <TextView
+            android:id="@+id/idnama2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/idfoto2"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/idfoto2"
+            android:text="Ria Novita Sari"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/idnim2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idnama2"
+            android:layout_alignStart="@+id/idnama2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="17dp"
+            android:text="210441100033"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/idumur2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idnim2"
+            android:layout_alignStart="@+id/idnim2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="19 Tahun"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/alamat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idumur2"
+            android:layout_alignStart="@+id/idumur2"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="11dp"
+            android:text="Bojonegoro - Jawa Timur"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

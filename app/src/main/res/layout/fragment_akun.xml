@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".akun">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="Login Sebagai:"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.142"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/login_sebagai_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="44dp"
+            android:text="Login Sebagai Username"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+            app:layout_constraintEnd_toEndOf="@+id/login"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="@+id/login"
+            tools:ignore="RtlCompat" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/purple_200"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <TextView
+                android:id="@+id/id_ID"
+                android:layout_width="84dp"
+                android:layout_height="23dp"
+                android:layout_alignStart="@+id/idumur"
+                android:layout_alignEnd="@+id/idumur"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="-172dp"
+                android:layout_marginBottom="168dp"
+                android:text="ID AKUN"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/id_name"
+                android:layout_width="148dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@+id/idumur"
+                android:layout_alignEnd="@+id/idumur"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="-82dp"
+                android:layout_marginBottom="139dp"
+                android:text="Naufal Ilham Fatikh"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idumur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="75dp"
+                android:text="21 Tahun"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idalamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idumur"
+                android:layout_alignStart="@+id/idumur"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Pasuruan"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idalamat"
+                android:layout_alignStart="@+id/idalamat"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="46dp"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idalamat"
+                android:layout_alignStart="@+id/idalamat"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="11dp"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:ignore="RtlCompat" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>

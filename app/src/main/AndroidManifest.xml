@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectAkhirPraktikum"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".Registrasi"
+            android:exported="false" />
+        <activity
+            android:name=".batik_kawung"
+            android:exported="false" />
+        <activity
+            android:name=".batik_geblekrenteng"
+            android:exported="false" />
+        <activity
+            android:name=".batik_parang"
+            android:exported="false" />
+        <activity
+            android:name=".batik_tujuhrupa"
+            android:exported="false" />
+        <activity
+            android:name=".batik_gantongan"
+            android:exported="false" />
+        <activity
+            android:name=".batik_MegaMendung"
+            android:exported="false" />
+        <activity
+            android:name=".batik_kraton"
+            android:exported="false" />
+        <activity
+            android:name=".batik_simbut"
+            android:exported="false" />
+        <activity
+            android:name=".batik_pringsedapur"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.projectakhirpraktikum.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".batik_sogan"
+            android:exported="false" />
+        <activity
+            android:name=".data_batik"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+    </application>
+
+</manifest>
